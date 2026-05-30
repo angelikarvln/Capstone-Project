@@ -54,27 +54,32 @@ Capstone/
 ---
 
 # 🚀 Menjalankan Project
-## 1. Masuk ke Folder Project
+## 1. Clone Repository
 ```bash
-cd Capstone_Dashboard
+git clone https://github.com/angelikarvln/Submission-Analisis-Data.git
 ```
 
-## 2. Install Dependency
+## 2. Masuk ke Folder Repository
+```bash
+cd Submission-Analisis-Data
+```
+
+## 3. Install Dependency
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-## 3. Masuk ke Folder Dashboard
+## 4. Masuk ke Folder Dashboard
 ```bash
 cd dashboard
 ```
 
-## 4. Jalankan Dashboard
+## 5. Jalankan Dashboard
 ```bash
 python -m streamlit run dashboard.py
 ```
 
-## 5. Buka Dashboard
+## 6. Buka Dashboard
 Jika berhasil, Streamlit akan berjalan pada browser:
 ```text
 http://localhost:8501
